@@ -1,0 +1,12 @@
+<wxs module="wxs" src="./index.wxs"></wxs>
+<view style="{{ customStyle }}">
+    <scroll-view scroll-x="{{ true }}" bind:scroll="{{ wxs.onScroll }}" data-px2rpxRatio="{{ px2rpxRatio }}" data-scrollViewWidth="{{ scrollViewWidth }}" data-scrollBarWidth="{{ scrollBarWidth }}">
+        <view class="scroll-view" style="height: {{ scrollViewHeight }}rpx">
+            <slot/>
+        </view>
+    </scroll-view>
+    <view class="scrollbar" style="width: {{ scrollBarWidth }}rpx; height: {{ scrollBarHeight}}rpx; margin: 0 auto; margin-top: 10rpx; {{ scrollBarStyle }}">
+        <view class="scrollbar-block" id="scrollbar" style="width: {{ scrollBarBlockWidth }}rpx; left: {{scrollBarBlockLeft}}rpx; {{ scrollBarBlockStyle }}"></view>
+    </view>
+</view>
+

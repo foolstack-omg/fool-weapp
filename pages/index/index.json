@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-scroll-bar": "/components/fool-weapp/x-scroll-bar/index",
+    "slide-tabs": "/components/fool-weapp/slide-tabs/index"
+  }
+}

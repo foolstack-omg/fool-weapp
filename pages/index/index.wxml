@@ -1,0 +1,5 @@
+<x-scroll-bar scroll-view-width="1200" scroll-view-height="400">
+    <view wx:for="{{ data }}" class="block" >
+        {{ item }}
+    </view>
+</x-scroll-bar>

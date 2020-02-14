@@ -1,0 +1,7 @@
+var onScroll = function(e, ownerInstance) {
+    var scrollBarBlockLeft = (e.detail.scrollLeft * e.currentTarget.dataset.px2rpxratio / (e.currentTarget.dataset.scrollviewwidth)) * e.currentTarget.dataset.scrollbarwidth
+    ownerInstance.selectComponent('#scrollbar').setStyle({left: scrollBarBlockLeft + 'rpx'})
+}
+module.exports = {
+    onScroll: onScroll
+};

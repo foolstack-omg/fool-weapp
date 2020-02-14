@@ -1,0 +1,5 @@
+<view>
+    <scroll-view scroll-x >
+        <view></view>
+    </scroll-view>
+</view>
