@@ -1,0 +1,8 @@
+.title{
+    height: 50rpx; font-size: 28rpx; width: 25vw; box-sizing: border-box; text-align: center; line-height: 50rpx; flex-grow: 0; flex-shrink: 0;
+}
+.title.active{
+    font-size: 32rpx;
+    font-weight: bold;
+
+}
